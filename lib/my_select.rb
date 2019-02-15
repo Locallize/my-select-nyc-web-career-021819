@@ -9,7 +9,7 @@ def my_select(collection)
 
  counter +=1 
  end
-collection
+new_array
 end
 
 
