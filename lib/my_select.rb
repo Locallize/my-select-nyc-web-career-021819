@@ -4,9 +4,9 @@ def my_select(collection)
  new_array = []
  
  while counter <  collection.length 
- 
- new_array << yield(collection[counter]) == true
-
+    if collection == true
+    new_array << yield(collection[counter]) == true
+    end
  counter +=1 
  end
 new_array
